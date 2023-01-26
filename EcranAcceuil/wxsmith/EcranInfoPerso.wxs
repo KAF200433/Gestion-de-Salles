@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="EcranInfoPerso">
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+					<size>500,720</size>
+					<fg>#000000</fg>
+					<bg>#FFFFFF</bg>
+					<object class="wxStaticBox" name="ID_STATICBOX1" variable="StaticBox1" member="yes">
+						<label>Informations Personnelles</label>
+						<pos>10,10</pos>
+						<size>480,700</size>
+						<font>
+							<size>23</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticBox" name="ID_STATICBOX2" variable="StaticBox2" member="yes">
+						<label>Gérant</label>
+						<pos>20,56</pos>
+						<size>452,324</size>
+						<font>
+							<size>20</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticBox" name="ID_STATICBOX3" variable="StaticBox3" member="yes">
+						<label>Client    </label>
+						<pos>20,392</pos>
+						<size>460,304</size>
+						<font>
+							<size>20</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+						<label>Nom :</label>
+						<pos>56,88</pos>
+						<size>56,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+						<label>Prenom :</label>
+						<pos>40,128</pos>
+						<size>72,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+						<label>Username :</label>
+						<pos>24,176</pos>
+						<size>96,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+						<label>Password :</label>
+						<pos>32,224</pos>
+						<size>88,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+						<label>Birthdate :</label>
+						<pos>32,264</pos>
+						<size>88,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+						<label>Address :</label>
+						<pos>48,312</pos>
+						<size>80,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+						<label>Cel :</label>
+						<pos>88,352</pos>
+						<size>40,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+						<pos>128,80</pos>
+						<size>160,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+						<pos>128,120</pos>
+						<size>160,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl3" member="yes">
+						<pos>128,168</pos>
+						<size>160,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl4" member="yes">
+						<pos>128,216</pos>
+						<size>160,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="TextCtrl5" member="yes">
+						<pos>128,256</pos>
+						<size>160,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL6" variable="TextCtrl6" member="yes">
+						<pos>128,304</pos>
+						<size>160,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL7" variable="TextCtrl7" member="yes">
+						<pos>128,344</pos>
+						<size>160,28</size>
+					</object>
+					<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+						<label>Save</label>
+						<pos>368,272</pos>
+						<font>
+							<size>15</size>
+							<style>italic</style>
+							<weight>normal</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+						<label>Close</label>
+						<pos>368,328</pos>
+						<font>
+							<size>15</size>
+							<style>italic</style>
+							<weight>normal</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+						<handler function="OnButton2Click" entry="EVT_BUTTON" />
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT8" variable="StaticText8" member="yes">
+						<label>Nom :</label>
+						<pos>56,456</pos>
+						<size>64,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT9" variable="StaticText9" member="yes">
+						<label>Prenoms :</label>
+						<pos>40,504</pos>
+						<size>80,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT10" variable="StaticText10" member="yes">
+						<label>Address :</label>
+						<pos>48,552</pos>
+						<size>72,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT11" variable="StaticText11" member="yes">
+						<label>Birthdate :</label>
+						<pos>32,592</pos>
+						<size>88,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT12" variable="StaticText12" member="yes">
+						<label>Cel :</label>
+						<pos>72,632</pos>
+						<size>40,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL8" variable="TextCtrl8" member="yes">
+						<pos>128,448</pos>
+						<size>152,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL9" variable="TextCtrl9" member="yes">
+						<pos>128,496</pos>
+						<size>152,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL10" variable="TextCtrl10" member="yes">
+						<pos>128,544</pos>
+						<size>152,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL11" variable="TextCtrl11" member="yes">
+						<pos>128,592</pos>
+						<size>152,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL12" variable="TextCtrl12" member="yes">
+						<pos>128,632</pos>
+						<size>144,28</size>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT13" variable="StaticText13" member="yes">
+						<label>Username</label>
+						<pos>224,416</pos>
+						<size>96,16</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL13" variable="TextCtrl13" member="yes">
+						<pos>312,408</pos>
+						<size>160,28</size>
+					</object>
+					<object class="wxButton" name="ID_BUTTON3" variable="Button3" member="yes">
+						<label>Valider</label>
+						<pos>384,440</pos>
+					</object>
+					<object class="wxButton" name="ID_BUTTON4" variable="Button4" member="yes">
+						<label>Retirer</label>
+						<pos>280,648</pos>
+						<font>
+							<size>15</size>
+							<style>italic</style>
+							<weight>normal</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxButton" name="ID_BUTTON5" variable="Button5" member="yes">
+						<label>OK</label>
+						<pos>384,648</pos>
+						<font>
+							<size>15</size>
+							<style>italic</style>
+							<weight>normal</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+						<handler function="OnButton5Click" entry="EVT_BUTTON" />
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="EcranConnexion">
+		<id_arg>0</id_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+					<size>450,450</size>
+					<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+						<bitmap>/home/kaf/Documents/ProjetC++2/logo/logo.jpg</bitmap>
+						<size>450,450</size>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+						<label>Username :</label>
+						<pos>104,280</pos>
+						<size>96,24</size>
+						<font>
+							<size>17</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+						<label>Password :</label>
+						<pos>104,328</pos>
+						<size>88,16</size>
+						<font>
+							<size>17</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+						<pos>200,280</pos>
+						<size>144,28</size>
+						<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+						<pos>200,320</pos>
+						<size>144,28</size>
+					</object>
+					<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+						<label>Submit</label>
+						<pos>168,360</pos>
+						<font>
+							<size>15</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+						<label>New? Create account</label>
+						<pos>128,408</pos>
+						<size>168,34</size>
+						<fg>#A577B8</fg>
+						<font>
+							<size>15</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+						<handler function="OnButton2Click" entry="EVT_BUTTON" />
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

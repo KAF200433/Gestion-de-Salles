@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="EcranInscription">
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+					<size>750,400</size>
+					<fg>#000000</fg>
+					<bg>#BFBFBF</bg>
+					<object class="wxBitmapButton" name="ID_BITMAPBUTTON1" variable="BitmapButton1" member="yes">
+						<bitmap>/home/kaf/Documents/ProjetC++2/logo/logo.jpg</bitmap>
+						<size>400,400</size>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+						<label>Inscription</label>
+						<pos>440,8</pos>
+						<size>168,32</size>
+						<font>
+							<size>25</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+						<label>Name :</label>
+						<pos>448,56</pos>
+						<size>64,24</size>
+						<font>
+							<size>18</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+						<label>Surname :</label>
+						<pos>424,104</pos>
+						<size>88,24</size>
+						<font>
+							<size>18</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+						<label>Birthdate :</label>
+						<pos>424,152</pos>
+						<size>96,24</size>
+						<font>
+							<size>18</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+						<label>Address :</label>
+						<pos>432,200</pos>
+						<size>88,16</size>
+						<font>
+							<size>17</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+						<label>Cel :</label>
+						<pos>472,248</pos>
+						<size>40,24</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+						<pos>520,48</pos>
+						<size>200,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+						<pos>520,96</pos>
+						<size>200,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl4" member="yes">
+						<pos>520,192</pos>
+						<size>200,28</size>
+					</object>
+					<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="TextCtrl5" member="yes">
+						<pos>520,240</pos>
+						<size>200,28</size>
+					</object>
+					<object class="wxRadioBox" name="ID_RADIOBOX1" variable="RadioBox1" member="yes">
+						<label>Statut</label>
+						<content>
+							<item>Client</item>
+							<item>Gerant</item>
+						</content>
+						<pos>416,304</pos>
+						<size>200,60</size>
+						<font>
+							<size>16</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+						<handler function="OnRadioBox1Select" entry="EVT_RADIOBOX" />
+					</object>
+					<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+						<label>Validate</label>
+						<pos>648,352</pos>
+						<bg>#29C93C</bg>
+						<font>
+							<size>15</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+						<handler function="OnButton1Click" entry="EVT_BUTTON" />
+					</object>
+					<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+						<label>Reserve   Room</label>
+						<pos>136,248</pos>
+						<size>136,24</size>
+						<font>
+							<size>18</size>
+							<style>italic</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<family>default</family>
+							<face>Z003</face>
+						</font>
+					</object>
+					<object class="wxDatePickerCtrl" name="ID_DATEPICKERCTRL1" variable="DatePickerCtrl1" member="yes">
+						<pos>528,144</pos>
+						<size>120,31</size>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

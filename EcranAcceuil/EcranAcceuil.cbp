@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EcranAcceuil" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/EcranAcceuil" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`wx-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+		</Linker>
+		<Unit filename="EcranAcceuilApp.cpp" />
+		<Unit filename="EcranAcceuilApp.h" />
+		<Unit filename="EcranAcceuilMain.cpp" />
+		<Unit filename="EcranAcceuilMain.h" />
+		<Unit filename="EcranClient.cpp" />
+		<Unit filename="EcranClient.h" />
+		<Unit filename="EcranConnexion.cpp" />
+		<Unit filename="EcranConnexion.h" />
+		<Unit filename="EcranFacture.cpp" />
+		<Unit filename="EcranFacture.h" />
+		<Unit filename="EcranFactureClient.cpp" />
+		<Unit filename="EcranFactureClient.h" />
+		<Unit filename="EcranGerant.cpp" />
+		<Unit filename="EcranGerant.h" />
+		<Unit filename="EcranHistorique.cpp" />
+		<Unit filename="EcranHistorique.h" />
+		<Unit filename="EcranHistoriqueClient.cpp" />
+		<Unit filename="EcranHistoriqueClient.h" />
+		<Unit filename="EcranInfoPerso.cpp" />
+		<Unit filename="EcranInfoPerso.h" />
+		<Unit filename="EcranInfoPersoClient.cpp" />
+		<Unit filename="EcranInfoPersoClient.h" />
+		<Unit filename="EcranInscription.cpp" />
+		<Unit filename="EcranInscription.h" />
+		<Unit filename="EcranRechercherVoirSalle.cpp" />
+		<Unit filename="EcranRechercherVoirSalle.h" />
+		<Unit filename="EcranReservation.cpp" />
+		<Unit filename="EcranReservation.h" />
+		<Unit filename="EcranUpdateSalle.cpp" />
+		<Unit filename="EcranUpdateSalle.h" />
+		<Unit filename="wxsmith/EcranAcceuilframe.wxs" />
+		<Unit filename="wxsmith/EcranClient.wxs" />
+		<Unit filename="wxsmith/EcranConnexion.wxs" />
+		<Unit filename="wxsmith/EcranFacture.wxs" />
+		<Unit filename="wxsmith/EcranFactureClient.wxs" />
+		<Unit filename="wxsmith/EcranGerant.wxs" />
+		<Unit filename="wxsmith/EcranHistorique.wxs" />
+		<Unit filename="wxsmith/EcranHistoriqueClient.wxs" />
+		<Unit filename="wxsmith/EcranInfoPerso.wxs" />
+		<Unit filename="wxsmith/EcranInfoPersoClient.wxs" />
+		<Unit filename="wxsmith/EcranInscription.wxs" />
+		<Unit filename="wxsmith/EcranRechercherVoirSalle.wxs" />
+		<Unit filename="wxsmith/EcranReservation.wxs" />
+		<Unit filename="wxsmith/EcranUpdateSalle.wxs" />
+		<Extensions>
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="EcranAcceuilApp.cpp" main="EcranAcceuilFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/EcranAcceuilframe.wxs" src="EcranAcceuilMain.cpp" hdr="EcranAcceuilMain.h" fwddecl="0" i18n="1" name="EcranAcceuilFrame" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranConnexion.wxs" src="EcranConnexion.cpp" hdr="EcranConnexion.h" fwddecl="0" i18n="1" name="EcranConnexion" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranInscription.wxs" src="EcranInscription.cpp" hdr="EcranInscription.h" fwddecl="0" i18n="1" name="EcranInscription" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranClient.wxs" src="EcranClient.cpp" hdr="EcranClient.h" fwddecl="0" i18n="1" name="EcranClient" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranGerant.wxs" src="EcranGerant.cpp" hdr="EcranGerant.h" fwddecl="0" i18n="1" name="EcranGerant" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranReservation.wxs" src="EcranReservation.cpp" hdr="EcranReservation.h" fwddecl="0" i18n="1" name="EcranReservation" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranFacture.wxs" src="EcranFacture.cpp" hdr="EcranFacture.h" fwddecl="0" i18n="1" name="EcranFacture" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranRechercherVoirSalle.wxs" src="EcranRechercherVoirSalle.cpp" hdr="EcranRechercherVoirSalle.h" fwddecl="0" i18n="1" name="EcranRechercherVoirSalle" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranHistorique.wxs" src="EcranHistorique.cpp" hdr="EcranHistorique.h" fwddecl="0" i18n="1" name="EcranHistorique" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranHistoriqueClient.wxs" src="EcranHistoriqueClient.cpp" hdr="EcranHistoriqueClient.h" fwddecl="0" i18n="1" name="EcranHistoriqueClient" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranInfoPerso.wxs" src="EcranInfoPerso.cpp" hdr="EcranInfoPerso.h" fwddecl="0" i18n="1" name="EcranInfoPerso" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranInfoPersoClient.wxs" src="EcranInfoPersoClient.cpp" hdr="EcranInfoPersoClient.h" fwddecl="0" i18n="1" name="EcranInfoPersoClient" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranUpdateSalle.wxs" src="EcranUpdateSalle.cpp" hdr="EcranUpdateSalle.h" fwddecl="0" i18n="1" name="EcranUpdateSalle" language="CPP" />
+					<wxDialog wxs="wxsmith/EcranFactureClient.wxs" src="EcranFactureClient.cpp" hdr="EcranFactureClient.h" fwddecl="0" i18n="1" name="EcranFactureClient" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
