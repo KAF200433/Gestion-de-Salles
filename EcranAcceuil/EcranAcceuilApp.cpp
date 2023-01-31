@@ -8,6 +8,7 @@
  **************************************************************/
 
 #include "EcranAcceuilApp.h"
+#include "wx/file.h"
 
 //(*AppHeaders
 #include "EcranAcceuilMain.h"
@@ -18,6 +19,8 @@ IMPLEMENT_APP(EcranAcceuilApp);
 
 bool EcranAcceuilApp::OnInit()
 {
+        //EcranReservation* R= new EcranReservation(this);
+
     //(*AppInitialize
     bool wxsOK = true;
     wxInitAllImageHandlers();

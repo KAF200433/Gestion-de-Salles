@@ -16,6 +16,7 @@ class EcranAcceuilApp : public wxApp
 {
     public:
         virtual bool OnInit();
+
 };
 
 #endif // ECRANACCEUILAPP_H

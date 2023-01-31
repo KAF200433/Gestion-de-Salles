@@ -1,6 +1,8 @@
 #ifndef ECRANRESERVATION_H
 #define ECRANRESERVATION_H
 
+#include "EcranInscription.h"
+
 //(*Headers(EcranReservation)
 #include <wx/button.h>
 #include <wx/dialog.h>
@@ -75,9 +77,11 @@ class EcranReservation: public wxDialog
 		//*)
 
 	private:
+	    EcranInscription* I;
 
 		//(*Handlers(EcranReservation)
 		void OnButton3Click(wxCommandEvent& event);
+		void OnInit(wxInitDialogEvent& event);
 		//*)
 
 		DECLARE_EVENT_TABLE()

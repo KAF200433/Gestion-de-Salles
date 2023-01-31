@@ -1,6 +1,8 @@
 #include "EcranInscription.h"
 #include "EcranGerant.h"
 #include "EcranClient.h"
+#include "EcranReservation.h"
+#include "wx/file.h"
 //(*InternalHeaders(EcranInscription)
 #include <wx/bitmap.h>
 #include <wx/font.h>
@@ -92,6 +94,7 @@ EcranInscription::EcranInscription(wxWindow* parent,wxWindowID id,const wxPoint&
 
 	Connect(ID_RADIOBOX1,wxEVT_COMMAND_RADIOBOX_SELECTED,(wxObjectEventFunction)&EcranInscription::OnRadioBox1Select);
 	Connect(ID_BUTTON1,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&EcranInscription::OnButton1Click);
+	Panel1->Connect(wxEVT_PAINT,(wxObjectEventFunction)&EcranInscription::OnPanel1Paint,0,this);
 	//*)
 }
 
@@ -104,7 +107,15 @@ EcranInscription::~EcranInscription()
 
 void EcranInscription::OnButton1Click(wxCommandEvent& event)
 {
-    int  statut=RadioBox1->GetSelection();
+    wxString ch;
+        wxFile fichier(_("fichier"),wxFile::read_write);
+        ch.Printf(("%d"),RadioBox1->GetSelection());
+    fichier.Write(ch);
+
+
+     int statut=GetStatut();
+    //R->statut=statut;
+
     if(statut==0)
     {
         EcranClient fr(this);
@@ -119,6 +130,16 @@ void EcranInscription::OnButton1Click(wxCommandEvent& event)
 
 void EcranInscription::OnRadioBox1Select(wxCommandEvent& event)
 {
+    /*EcranReservation* R= new EcranReservation(this);
+    R->statut=RadioBox1->GetSelection();*/
 }
 
 
+void EcranInscription::OnPanel1Paint(wxPaintEvent& event)
+{
+}
+
+int EcranInscription::GetStatut()
+{
+    return  RadioBox1->GetSelection();
+}

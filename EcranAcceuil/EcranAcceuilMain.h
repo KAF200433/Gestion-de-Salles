@@ -19,6 +19,7 @@
 #include <wx/stattext.h>
 #include <wx/statusbr.h>
 //*)
+extern int lien;
 class EcranAcceuilFrame: public wxFrame
 {
     public:
@@ -54,6 +55,7 @@ class EcranAcceuilFrame: public wxFrame
         wxStaticText* StaticText2;
         wxStatusBar* StatusBar1;
         //*)
+
 
         DECLARE_EVENT_TABLE()
 };

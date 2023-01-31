@@ -9,6 +9,7 @@
 					<size>750,400</size>
 					<fg>#000000</fg>
 					<bg>#BFBFBF</bg>
+					<handler function="OnPanel1Paint" entry="EVT_PAINT" />
 					<object class="wxBitmapButton" name="ID_BITMAPBUTTON1" variable="BitmapButton1" member="yes">
 						<bitmap>/home/kaf/Documents/ProjetC++2/logo/logo.jpg</bitmap>
 						<size>400,400</size>

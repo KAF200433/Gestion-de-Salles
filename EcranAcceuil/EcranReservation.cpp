@@ -1,5 +1,8 @@
 #include "EcranReservation.h"
-
+#include "EcranInscription.h"
+#include "EcranClient.h"
+#include "EcranGerant.h"
+#include "wx/file.h"
 //(*InternalHeaders(EcranReservation)
 #include <wx/bitmap.h>
 #include <wx/font.h>
@@ -118,6 +121,7 @@ EcranReservation::EcranReservation(wxWindow* parent,wxWindowID id,const wxPoint&
 	BoxSizer1->SetSizeHints(this);
 
 	Connect(ID_BUTTON3,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&EcranReservation::OnButton3Click);
+	Connect(wxID_ANY,wxEVT_INIT_DIALOG,(wxObjectEventFunction)&EcranReservation::OnInit);
 	//*)
 }
 
@@ -130,6 +134,26 @@ EcranReservation::~EcranReservation()
 
 void EcranReservation::OnButton3Click(wxCommandEvent& event)
 {
+ wxString ch;
+wxFile fichier(_("fichier"),wxFile::read_write);
+        //ch.Printf(("%d"),RadioBox1->GetSelection());
+fichier.ReadAll(&ch);
+ int statut=atof(ch);
 
 
+if(statut==0)
+    {
+        EcranClient fr(this);
+        fr.ShowModal();
+    }
+    else
+    {
+        EcranGerant fa(this);
+        fa.ShowModal();
+    }
+
+}
+
+void EcranReservation::OnInit(wxInitDialogEvent& event)
+{
 }

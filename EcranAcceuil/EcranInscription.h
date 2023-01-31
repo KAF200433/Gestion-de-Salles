@@ -1,6 +1,5 @@
 #ifndef ECRANINSCRIPTION_H
 #define ECRANINSCRIPTION_H
-
 //(*Headers(EcranInscription)
 #include <wx/bmpbuttn.h>
 #include <wx/button.h>
@@ -20,6 +19,7 @@ class EcranInscription: public wxDialog
 
 		EcranInscription(wxWindow* parent,wxWindowID id=wxID_ANY,const wxPoint& pos=wxDefaultPosition,const wxSize& size=wxDefaultSize);
 		virtual ~EcranInscription();
+		int GetStatut();
 
 		//(*Declarations(EcranInscription)
 		wxBitmapButton* BitmapButton1;
@@ -39,6 +39,7 @@ class EcranInscription: public wxDialog
 		wxTextCtrl* TextCtrl4;
 		wxTextCtrl* TextCtrl5;
 		//*)
+
 
 	protected:
 
@@ -66,7 +67,7 @@ class EcranInscription: public wxDialog
 		//(*Handlers(EcranInscription)
 		void OnButton1Click(wxCommandEvent& event);
 		void OnRadioBox1Select(wxCommandEvent& event);
-
+		void OnPanel1Paint(wxPaintEvent& event);
 		//*)
 
 		DECLARE_EVENT_TABLE()

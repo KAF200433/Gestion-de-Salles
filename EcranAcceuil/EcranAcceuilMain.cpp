@@ -142,3 +142,5 @@ void EcranAcceuilFrame::OnButton1Click(wxCommandEvent& event)
 void EcranAcceuilFrame::OnPanel1Paint(wxPaintEvent& event)
 {
 }
+
+
